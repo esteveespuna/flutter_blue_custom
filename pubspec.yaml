@@ -1,9 +1,9 @@
-name: flutter_blue_custom
+name: flutter_blue
 description:
   Flutter plugin for connecting and communicating with Bluetooth Low Energy devices,
-  on Android and iOS . Esteve mod CCCD
+  on Android and iOS
 version: 0.8.0
-homepage: 
+homepage: https://github.com/pauldemarco/flutter_blue
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -26,7 +26,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.esteveespuna.flutter_blue_custom
+        package: com.pauldemarco.flutter_blue
         pluginClass: FlutterBluePlugin
       ios:
         pluginClass: FlutterBluePlugin
